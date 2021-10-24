@@ -8,6 +8,4 @@ import seaborn as sns
 events = pd.read_csv('C:\\Users\\Lenovo\\Documents\\DATA SCIENTEST\\PROJET E COMMERCE\\events.csv')
 
 #Aperçu des 20 premières lignes
-st.write(print(events.head()))
-
-
+st.write(events.head(20 ))
